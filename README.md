@@ -30,7 +30,7 @@ This will:
 * Run all tests 
 * Build server binaries in `bin` (one for the OS you're building on and one for Linux AMD64 platform to be used 
   inside the Docker image)
-* Build Docker image `bonsaiengineering/go-api-server-template`
+* Build Docker image `go-api-server-template`
 
 Explore the `Makefile` or simply type `make` in the current directory for commonly used tasks.
 

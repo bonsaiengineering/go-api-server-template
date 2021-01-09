@@ -1,4 +1,4 @@
-IMAGE_NAME:=bonsaiengineering/go-api-server-template
+IMAGE_NAME:=go-api-server-template
 IMAGE_TAG:=$(shell git rev-parse HEAD)
 BUILD_BRANCH:=$(shell git rev-parse --abbrev-ref HEAD)
 BUILD_VERSION:=$(shell git rev-parse HEAD)
